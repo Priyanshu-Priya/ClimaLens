@@ -1,0 +1,19 @@
+/* Navbar.css */
+.navbar {
+    position: relative;
+    z-index: 100; /* Ensure navbar is on top */
+  }
+  
+  .navbar .lg\:flex {
+    display: flex; /* Flex display for large screens */
+  }
+  
+  .navbar a {
+    color: white; /* Ensure text color is white */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .navbar a:hover {
+    background-color: #4aaf69; /* Change to desired hover color */
+  }
+  
