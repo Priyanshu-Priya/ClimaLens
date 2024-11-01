@@ -93,18 +93,3 @@ Special thanks to all contributors and mentors who have supported the developmen
 ---
 
 **Join us in our mission to understand and combat climate change!**
-
-
-### Key Improvements
-
-1. **Engaging Title**: The title now includes an emoji to make it more visually appealing.
-   
-2. **Project Overview**: Added a concise project overview that explains the purpose and mission of ClimaLens.
-
-3. **Visual Element**: Included a placeholder for a screenshot to give users a glimpse of the project. You can replace `path-to-your-screenshot` with the actual path to an image.
-
-4. **Clear Section Headers**: Used headings and lists for better readability and navigation.
-
-5. **Call to Action**: Added a motivational closing statement to inspire involvement in the project.
-
-6. **Enhanced Contribution Section**: Provided a clear, step-by-step guide for contributors to make it easier for them to get involved.
