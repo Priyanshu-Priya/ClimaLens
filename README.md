@@ -7,7 +7,7 @@ Sure! Here’s an enhanced version of your README for the ClimaLens project, des
 
 **ClimaLens** is an innovative climate data visualization web application dedicated to providing users with insightful and accessible climate data. Our goal is to empower individuals, organizations, and policymakers with the knowledge needed to address climate change effectively.
 
-![ClimaLens Screenshot](src\assets\image.png) <!-- Update this path with the actual screenshot of your project -->
+![ClimaLens Screenshot](https://raw.githubusercontent.com/priyanshu-priya/ClimaLens/main/src/assets/image.png) <!-- Update this path with the actual screenshot of your project -->
 
 ## Table of Contents
 
