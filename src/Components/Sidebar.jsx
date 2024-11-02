@@ -1,14 +1,16 @@
 // src/Components/Sidebar.js
-import React, { useState } from 'react';
+import React, { useState, useEffect  } from 'react';
 import { Link } from 'react-router-dom';
 import { initFlowbite } from "flowbite";
 import Dashboard from './Dashboard';
 
-initFlowbite();
 
 const Sidebar = () => {
-  const [isOpen, setIsOpen] = useState(false); // State to track the open/close status of the sidebar
-
+   const [isOpen, setIsOpen] = useState(false);
+ 
+   useEffect(() => {
+     initFlowbite();
+   }, []);
   const toggleSidebar = () => {
     setIsOpen(!isOpen); // Toggle the open state
   };

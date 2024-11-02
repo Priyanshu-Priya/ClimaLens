@@ -11,6 +11,7 @@ import Resource_Content from './pages/Resources';
 
 function App() {
   return (
+    <>
     <Router>
       <Navbar />
       <main className="main-content">
@@ -23,8 +24,9 @@ function App() {
           <Route path="/resources/*" element={<Resource_Content />} />
         </Routes>
       </main>
+      
     </Router>
-
+  </>
   );
 }
 
