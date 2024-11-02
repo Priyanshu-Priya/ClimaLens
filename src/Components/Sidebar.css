@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+    .sidebar {
+      width: 100%; /* Full width on small screens */
+      padding: 20px; /* Add padding */
+      position: relative; /* Position relative */
+
+    }
+  }

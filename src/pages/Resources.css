@@ -1,0 +1,12 @@
+/* Default style for all screens */
+.custom-margin {
+    margin-left: 0px; /* For small screens */
+  }
+  
+  /* Style for screens that are at least 639px wide */
+  @media (min-width: 639px) {
+    .custom-margin {
+      margin-left: 256px; /* For larger screens */
+    }
+  }
+  
