@@ -86,9 +86,7 @@ const Home = () => {
               </Link>
             </div>
             <div className="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
-              <span className="font-semibold text-gray-400 uppercase">
-                DATA FROM
-              </span>
+              <span className="font-semibold text-gray-400 uppercase">DATA SOURCES</span>
               <div className="flex flex-wrap justify-center items-center mt-8 text-gray-500">
                 <a href="#" className="mr-5 mb-5 lg:mb-0 hover:text-gray-400">
                   {/* Add your featured logos here */}

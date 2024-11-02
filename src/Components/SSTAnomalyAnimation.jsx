@@ -10,7 +10,7 @@ const SSTAnomalyAnimation = () => {
       <img 
         src={gifUrl} 
         alt="Sea Surface Temperature Anomaly Animation" 
-        style={{ width: '100%', maxWidth: '800px', height: 'auto' }} 
+        style={{ width: '100%', maxWidth: '1150px', height: 'auto' }} 
       />
     </div>
   );

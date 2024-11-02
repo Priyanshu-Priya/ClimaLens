@@ -12,7 +12,7 @@ const Global_Temp = () => {
       
       src={Global_Temp_img} 
       alt="NASA GISS Global Temperature Visualization"
-      style={{ width: '800px', height: 'auto' }}
+      style={{  width: '100%', maxWidth: '1150px', height: 'auto'  }}
     />
   </a>
 

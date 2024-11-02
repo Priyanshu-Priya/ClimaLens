@@ -1,0 +1,12 @@
+.heatmap-container {
+    width: 100%; /* or a specific width, e.g., 1240px */
+    max-width: 1240px; /* Max width */
+    aspect-ratio: 1240 / 650; /* Maintain the aspect ratio */
+    position: relative; /* Needed for child positioning */
+  }
+  
+  .flourish-chart {
+    width: 100%; /* Make the chart responsive */
+    height: 100%; /* Make the chart fill the container */
+  }
+  
