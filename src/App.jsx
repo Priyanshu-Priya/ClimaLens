@@ -1,15 +1,28 @@
-import Navbar from './Components/Navbar'
-import './App.css'
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import React from 'react';
+import Navbar from './Components/Navbar';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import Resource from './pages/Resource';
+import AboutUs from './pages/AboutUs';
+import Blog from './pages/Blog';
+import ContactUs from './pages/ContactUs';
+import './App.css';
 
 function App() {
-
   return (
-    <>
-      <Navbar/>
-    </>
-  )
+    <Router>
+      <Navbar />
+      <main className="main-content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/resource" element={<Resource />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/contact-us" element={<ContactUs />} />
+        </Routes>
+      </main>
+    </Router>
+  );
 }
 
-export default App
+export default App;

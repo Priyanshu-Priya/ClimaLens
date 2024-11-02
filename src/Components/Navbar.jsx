@@ -1,10 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import Home from './../pages/Home'; // Assuming you have these components
-import Resource from './../pages/Resource';
-import AboutUs from './../pages/AboutUs';
-import Blog from './../pages/Blog';
-import ContactUs from './../pages/ContactUs';
+
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,13 +10,13 @@ const Navbar = () => {
   };
 
   return (
-    <Router>
+
       <nav className="navbar z-20 fixed w-full"> {/* Make the navbar fixed */}
         <div className="flex items-center justify-between bg-green-800 shadow-lg ">
           {/* Logo */}
           <div className="flex items-center justify-center text-xl font-bold text-white h-[80px]">
             <a 
-              href="#" 
+              href="/" 
               className="h-full w-full px-3 py-2 my-0 hover:bg-green-500 transition duration-300 flex items-center justify-center"
             >
               CLIMALENS
@@ -53,16 +49,9 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Define your routes here */}
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/resource" element={<Resource />} />
-          <Route path="/about-us" element={<AboutUs />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/contact-us" element={<ContactUs />} />
-        </Routes>
+     
       </nav>
-    </Router>
+ 
   );
 };
 
