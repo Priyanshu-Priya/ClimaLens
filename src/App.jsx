@@ -16,7 +16,7 @@ function App() {
       <main className="main-content">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/resource" element={<Resource />} />
+          <Route path="/resource/*" element={<Resource />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact-us" element={<ContactUs />} />
@@ -24,6 +24,7 @@ function App() {
         </Routes>
       </main>
     </Router>
+
   );
 }
 
