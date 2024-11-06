@@ -1,11 +1,19 @@
 import React from 'react';
 import { Line } from 'react-chartjs-2';
-import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from 'chart.js';
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend
+} from 'chart.js';
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
 
 const TemperatureChart = () => {
-  // Temperature data from your uploaded file
   const data = {
     labels: [
       1880, 1881, 1882, 1883, 1884, 1885, 1886, 1887, 1888, 1889, 1890, 1891, 1892, 1893, 1894, 1895, 1896, 1897, 1898,
@@ -42,6 +50,7 @@ const TemperatureChart = () => {
 
   const options = {
     responsive: true,
+    maintainAspectRatio: false,
     plugins: {
       legend: {
         position: 'top'
@@ -67,7 +76,11 @@ const TemperatureChart = () => {
     }
   };
 
-  return <Line data={data} options={options} />;
+  return (
+    <div style={{ maxWidth: '100%', height: '400px', margin: '0 auto' }}>
+      <Line data={data} options={options} />
+    </div>
+  );
 };
 
 export default TemperatureChart;
