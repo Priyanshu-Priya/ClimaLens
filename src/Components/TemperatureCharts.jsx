@@ -75,10 +75,12 @@ const TemperatureChart = () => {
       }
     }
   };
-
+  // maxWidth: '100%', height: '400px', margin: '0 auto' 
   return (
-    <div style={{ maxWidth: '100%', height: '400px', margin: '0 auto' }}>
-      <Line data={data} options={options} />
+    <div style={{ maxWidth: '100%', margin: '0 auto', padding: '0 10px' }}>
+      <div style={{ height: '80vh', '@media (max-width: 768px)': { height: '300px' } }}>
+        <Line data={data} options={options} />
+      </div>
     </div>
   );
 };
